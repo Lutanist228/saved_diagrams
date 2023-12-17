@@ -1,9 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T12:19:30.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="j0oYiewOnsadcR261O95" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T07:39:37.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="zf6JJy5I1N5r3u2A1rup" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="bBnwiWEpFWaJWLRflJb5">
     <mxGraphModel dx="746" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ioY3EiMOHNlyp7GejzbB-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ioY3EiMOHNlyp7GejzbB-10" value="Command: /start" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="160" width="160" height="70" as="geometry" />
         </mxCell>
@@ -26,6 +31,15 @@
         </mxCell>
         <mxCell id="ioY3EiMOHNlyp7GejzbB-21" value="2) Вызов бота внутри канала\чата" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="ioY3EiMOHNlyp7GejzbB-19" vertex="1">
           <mxGeometry y="56" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-2" value="Message:&lt;br&gt;&quot;Привет!&lt;br&gt;Этот бот может ....&quot;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-3" value="Данное сообщение триггерится один раз при старте бота и более не появляется" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-4" value="Возможно будет достаточным реализовать описание бота через description в botfather" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
