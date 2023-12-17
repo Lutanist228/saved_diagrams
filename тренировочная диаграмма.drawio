@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T08:05:22.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="G7MrloXL4uecepSm9HVV" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T08:07:48.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="4w76eMnkIx50BGd2-fD4" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="bBnwiWEpFWaJWLRflJb5">
     <mxGraphModel dx="710" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,8 +70,8 @@
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-15" value="Это главное меню, к которому пользователь возвращается при /start или же при нажатии кнопки &quot;Главное меню&quot;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="286" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bCp8vL0oqEaVXwoQY5vh-32" value="User State: request_construction" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=50;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="70" width="610" height="290" as="geometry" />
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-32" value="User State: structure_construction" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=50;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="75" width="280" height="290" as="geometry" />
         </mxCell>
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bCp8vL0oqEaVXwoQY5vh-26" target="bCp8vL0oqEaVXwoQY5vh-34">
           <mxGeometry relative="1" as="geometry">
@@ -82,7 +82,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bCp8vL0oqEaVXwoQY5vh-43" value="callback: any" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bCp8vL0oqEaVXwoQY5vh-33">
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-43" value="callback: structure&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bCp8vL0oqEaVXwoQY5vh-33">
           <mxGeometry x="-0.1622" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -103,7 +103,7 @@
           <mxGeometry y="130" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-34" value="Меню: &quot;Давай по порядку&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="116" width="240" height="224" as="geometry" />
+          <mxGeometry x="1261" y="121" width="240" height="224" as="geometry" />
         </mxCell>
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-35" value="Актуальность, новизна [callback = relevance]&amp;nbsp;" style="text;strokeColor=#6c8ebf;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="bCp8vL0oqEaVXwoQY5vh-34">
           <mxGeometry y="26" width="240" height="44" as="geometry" />
