@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T07:49:00.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="09joUXVzOBM1ivej15O6" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T07:53:22.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="eyVpDcTefbVtmxTpU2m7" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="bBnwiWEpFWaJWLRflJb5">
-    <mxGraphModel dx="678" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1492" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-16" value="State: None" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=50;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="100" width="310" height="290" as="geometry" />
+          <mxGeometry x="540" y="100" width="290" height="280" as="geometry" />
         </mxCell>
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ioY3EiMOHNlyp7GejzbB-10">
           <mxGeometry relative="1" as="geometry">
@@ -49,6 +49,11 @@
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-4" value="Возможно будет достаточным реализовать описание бота через description в botfather" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="420" y="80" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bCp8vL0oqEaVXwoQY5vh-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="227.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-6" value="Меню: &quot;С чем тебе помочь?&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="560" y="140" width="210" height="176" as="geometry" />
         </mxCell>
@@ -69,6 +74,21 @@
         </mxCell>
         <mxCell id="bCp8vL0oqEaVXwoQY5vh-15" value="Это главное меню, к которому пользователь возвращается при /start или же при нажатии кнопки &quot;Главное меню&quot;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="670" y="260" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-26" value="Меню: &quot;Что именно тебе нужно?&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="890" y="140" width="240" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-27" value="Тема работы" style="text;strokeColor=#6c8ebf;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="bCp8vL0oqEaVXwoQY5vh-26">
+          <mxGeometry y="26" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-28" value="Структура (цель, задачи)" style="text;strokeColor=#6c8ebf;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="bCp8vL0oqEaVXwoQY5vh-26">
+          <mxGeometry y="56" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-29" value="Литературный обзор" style="text;strokeColor=#6c8ebf;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="bCp8vL0oqEaVXwoQY5vh-26">
+          <mxGeometry y="86" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bCp8vL0oqEaVXwoQY5vh-30" value="Исследование&amp;nbsp;" style="text;strokeColor=#6c8ebf;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="bCp8vL0oqEaVXwoQY5vh-26">
+          <mxGeometry y="116" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
