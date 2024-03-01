@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T12:42:41.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="FkTsbXHBnhQJs0uuBYId" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T12:45:52.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="VligG0WrIkjJCnYp8d6A" version="24.0.0" type="github">
   <diagram name="Страница — 1" id="oqZG3qBoVa42VMbA7v-O">
-    <mxGraphModel dx="3012" dy="3143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2583" dy="2889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="H0i8P3puqLBgDwVi53OT-27" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#33FFFF;shadow=0;opacity=15;perimeterSpacing=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="-160" width="1590" height="830" as="geometry" />
+          <mxGeometry x="740" y="-160" width="1460" height="830" as="geometry" />
         </mxCell>
         <mxCell id="H0i8P3puqLBgDwVi53OT-14" value="Registration_Form" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="-120" width="330" height="370" as="geometry" />
@@ -344,7 +344,7 @@
           <mxGeometry x="540" y="270" width="270" height="200" as="geometry" />
         </mxCell>
         <mxCell id="H0i8P3puqLBgDwVi53OT-216" value="Справочник Транзакций" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="280" width="530" height="220" as="geometry" />
+          <mxGeometry x="1670" y="-1560" width="530" height="220" as="geometry" />
         </mxCell>
         <mxCell id="H0i8P3puqLBgDwVi53OT-220" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;fontColor=#5C5C5C;" parent="H0i8P3puqLBgDwVi53OT-216" vertex="1">
           <mxGeometry y="30" width="530" height="50" as="geometry" />
@@ -928,7 +928,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="laF4huLiKgrlqjt_XLRD-47" value="Градация Сложности" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" parent="1" vertex="1">
-          <mxGeometry x="-870" y="-1920" width="240" height="340" as="geometry" />
+          <mxGeometry x="1670" y="-1920" width="240" height="340" as="geometry" />
         </mxCell>
         <mxCell id="laF4huLiKgrlqjt_XLRD-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;fontColor=#5C5C5C;" parent="laF4huLiKgrlqjt_XLRD-47" vertex="1">
           <mxGeometry y="30" width="240" height="50" as="geometry" />
@@ -1009,7 +1009,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="laF4huLiKgrlqjt_XLRD-83" value="Группы Мышц" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="-1920" width="240" height="240" as="geometry" />
+          <mxGeometry x="1410" y="-1920" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="laF4huLiKgrlqjt_XLRD-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;fontColor=#5C5C5C;" parent="laF4huLiKgrlqjt_XLRD-83" vertex="1">
           <mxGeometry y="30" width="240" height="50" as="geometry" />
@@ -1064,7 +1064,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="laF4huLiKgrlqjt_XLRD-102" value="Типы Движений" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeColor=#006658;fontColor=#5C5C5C;fillColor=#21C0A5;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="-1660" width="240" height="240" as="geometry" />
+          <mxGeometry x="1410" y="-1660" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="laF4huLiKgrlqjt_XLRD-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;fontColor=#5C5C5C;" parent="laF4huLiKgrlqjt_XLRD-102" vertex="1">
           <mxGeometry y="30" width="240" height="50" as="geometry" />
